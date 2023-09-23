@@ -1,3 +1,3 @@
-404name="Vinni"
-
-print(404name)
+#404name="Vinni"
+                      # should not start with 0-9
+#print(404name)

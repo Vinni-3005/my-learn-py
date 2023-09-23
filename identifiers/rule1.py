@@ -1,7 +1,7 @@
-eid=404
-eName="vineetha"
-e4name="hii"
-e_lastname="chowdary"
+eid=404                    # a to z
+eName="vineetha"           # A to Z
+e4name="hii"               # 0 to 9
+e_lastname="chowdary"      # (_)underscore
 
 print(eid)
 print(eName)
