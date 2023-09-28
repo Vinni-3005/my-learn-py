@@ -21,4 +21,10 @@ emp={'id':101,
 print(emp)
 
 
+size=[44,42,0,40,255]
+ba=bytearray(size)
+print(ba)
+print(type(ba))
+
+
 
