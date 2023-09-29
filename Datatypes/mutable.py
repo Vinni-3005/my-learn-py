@@ -20,7 +20,7 @@ emp={'id':101,
      }
 print(emp)
 
-
+# 4.bytearray
 size=[44,42,0,40,255]
 ba=bytearray(size)
 print(ba)

@@ -1,0 +1,11 @@
+[
+    {
+        "label": "wish",
+        "kind": 2,
+        "importPath": "Datatypes.immutable",
+        "description": "Datatypes.immutable",
+        "peekOfCode": "def wish():\n    pass\nprint(wish())\n#10.Frozenset\nids={10,20,30}\nids.add(40)\nfs=frozenset(ids)\nprint(ids)     #why 40 is adding at the starting value?\nprint(fs)",
+        "detail": "Datatypes.immutable",
+        "documentation": {}
+    }
+]
