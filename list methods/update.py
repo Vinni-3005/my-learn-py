@@ -17,5 +17,7 @@
 
 #update
 ids=[101,102,103,104]
-ids.append(105)
+ids.append(105) #append the value at the end of the list
+print(ids)
+ids.insert(5,400) #insert the element at the given index number
 print(ids)
