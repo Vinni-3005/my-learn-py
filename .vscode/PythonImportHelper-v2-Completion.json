@@ -9,12 +9,62 @@
         "documentation": {}
     },
     {
+        "label": "loads",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "load",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "dumps",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "dump",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "wish",
         "kind": 2,
         "importPath": "Datatypes.immutable",
         "description": "Datatypes.immutable",
         "peekOfCode": "def wish():\n    pass\nprint(wish())\n#10.Frozenset\nids={10,20,30}\nids.add(40)\nfs=frozenset(ids)\nprint(ids)     #why 40 is adding at the starting value?\nprint(fs)",
         "detail": "Datatypes.immutable",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "oops.variables.instance",
+        "description": "oops.variables.instance",
+        "peekOfCode": "class Employee:\n    def __init__(self,id,name,sal):\n        self.acc_id=id\n        self.name_name=name\n        self.sal_sal=sal\ne1=Employee(101,'Rahul',45000)\ne2=Employee(102,'Sonia',55000)\nprint(e1.__dict__)\nprint(e2.__dict__)",
+        "detail": "oops.variables.instance",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "oops.variables.static",
+        "description": "oops.variables.static",
+        "peekOfCode": "class Employee:\n    org_name='Mphasis'\n    or_loc='Bengaluru'\n    def __init__(self,id,name,sal):\n        self.acc_id=id\n        self.acc_name=name\n        self.acc_sal=sal\ne1=Employee(101,'abc',34000)\ne2=Employee(102,'xyz',23000)\nprint(e1.__dict__)",
+        "detail": "oops.variables.static",
         "documentation": {}
     }
 ]
