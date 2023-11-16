@@ -12,6 +12,6 @@ for emp in emp_List:
 fp.close()
 
 fp1=open('emp.csv','w')
-emp_Lists=load(fp1)
+emp_List=load(fp1)
 print(type(emp_List))
 fp1.close()

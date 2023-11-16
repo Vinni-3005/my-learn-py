@@ -41,6 +41,14 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
         "label": "wish",
         "kind": 2,
         "importPath": "Datatypes.immutable",
@@ -50,21 +58,156 @@
         "documentation": {}
     },
     {
-        "label": "Employee",
+        "label": "Account",
         "kind": 6,
-        "importPath": "oops.variables.instance",
-        "description": "oops.variables.instance",
-        "peekOfCode": "class Employee:\n    def __init__(self,id,name,sal):\n        self.acc_id=id\n        self.name_name=name\n        self.sal_sal=sal\ne1=Employee(101,'Rahul',45000)\ne2=Employee(102,'Sonia',55000)\nprint(e1.__dict__)\nprint(e2.__dict__)",
-        "detail": "oops.variables.instance",
+        "importPath": "oops-part1.methods.instancemethod",
+        "description": "oops-part1.methods.instancemethod",
+        "peekOfCode": "class Account:\n    min_bal = 500  # static variable\n    def __init__(self):\n        self.a=10\n        self.b=20\na1 = Account()\na2 = Account()\nprint(a1.__dict__)\nprint(a2.__dict__)",
+        "detail": "oops-part1.methods.instancemethod",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "oops-part1.methods.instancemethod",
+        "description": "oops-part1.methods.instancemethod",
+        "peekOfCode": "a1 = Account()\na2 = Account()\nprint(a1.__dict__)\nprint(a2.__dict__)",
+        "detail": "oops-part1.methods.instancemethod",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "oops-part1.methods.instancemethod",
+        "description": "oops-part1.methods.instancemethod",
+        "peekOfCode": "a2 = Account()\nprint(a1.__dict__)\nprint(a2.__dict__)",
+        "detail": "oops-part1.methods.instancemethod",
         "documentation": {}
     },
     {
         "label": "Employee",
         "kind": 6,
-        "importPath": "oops.variables.static",
-        "description": "oops.variables.static",
+        "importPath": "oops-part1.variables.instance",
+        "description": "oops-part1.variables.instance",
+        "peekOfCode": "class Employee:\n    def __init__(self,id,name,sal):\n        self.acc_id=id\n        self.name_name=name\n        self.sal_sal=sal\ne1=Employee(101,'Rahul',45000)\ne2=Employee(102,'Sonia',55000)\nprint(e1.__dict__)\nprint(e2.__dict__)",
+        "detail": "oops-part1.variables.instance",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "oops-part1.variables.static",
+        "description": "oops-part1.variables.static",
         "peekOfCode": "class Employee:\n    org_name='Mphasis'\n    or_loc='Bengaluru'\n    def __init__(self,id,name,sal):\n        self.acc_id=id\n        self.acc_name=name\n        self.acc_sal=sal\ne1=Employee(101,'abc',34000)\ne2=Employee(102,'xyz',23000)\nprint(e1.__dict__)",
-        "detail": "oops.variables.static",
+        "detail": "oops-part1.variables.static",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "oops-part2.Abstraction.ex1",
+        "description": "oops-part2.Abstraction.ex1",
+        "peekOfCode": "class Account:\n    @abstractmethod\n    def cal_bal(self):\n        return \na1 = Account()\nprint(a1)\nprint(id(a1))",
+        "detail": "oops-part2.Abstraction.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "oops-part2.Abstraction.ex1",
+        "description": "oops-part2.Abstraction.ex1",
+        "peekOfCode": "a1 = Account()\nprint(a1)\nprint(id(a1))",
+        "detail": "oops-part2.Abstraction.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "parent",
+        "kind": 6,
+        "importPath": "oops-part2.inheritance.ex1",
+        "description": "oops-part2.inheritance.ex1",
+        "peekOfCode": "class parent:\n    def parent1(self):\n        print(\"This is first parent method\")\n    def parent2(self):\n        print(\"this is second parent method\")\nclass child(parent):\n    def child1(self):\n        print(\"inheriting the properties of parent child\")\nc1 = child()\nc1.parent1()",
+        "detail": "oops-part2.inheritance.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "child",
+        "kind": 6,
+        "importPath": "oops-part2.inheritance.ex1",
+        "description": "oops-part2.inheritance.ex1",
+        "peekOfCode": "class child(parent):\n    def child1(self):\n        print(\"inheriting the properties of parent child\")\nc1 = child()\nc1.parent1()\nc1.parent2()\nc1.child1()\n'''\nclass Parent:\n    def m1(self):",
+        "detail": "oops-part2.inheritance.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Parent",
+        "kind": 6,
+        "importPath": "oops-part2.inheritance.ex1",
+        "description": "oops-part2.inheritance.ex1",
+        "peekOfCode": "class Parent:\n    def m1(self):\n        print(\"Parent Class - m1 method\")\n    def m2(self):\n        print(\"Parent Class - m2 method\")\nclass Child(Parent):\n    def m3(self):\n        print(\"Child Class - m3 method\")\nc1 = Child()\nc1.m1()",
+        "detail": "oops-part2.inheritance.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Child",
+        "kind": 6,
+        "importPath": "oops-part2.inheritance.ex1",
+        "description": "oops-part2.inheritance.ex1",
+        "peekOfCode": "class Child(Parent):\n    def m3(self):\n        print(\"Child Class - m3 method\")\nc1 = Child()\nc1.m1()\nc1.m2()\nc1.m3()'''",
+        "detail": "oops-part2.inheritance.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "oops-part2.inheritance.ex1",
+        "description": "oops-part2.inheritance.ex1",
+        "peekOfCode": "c1 = child()\nc1.parent1()\nc1.parent2()\nc1.child1()\n'''\nclass Parent:\n    def m1(self):\n        print(\"Parent Class - m1 method\")\n    def m2(self):\n        print(\"Parent Class - m2 method\")",
+        "detail": "oops-part2.inheritance.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "oops-part2.inheritance.ex1",
+        "description": "oops-part2.inheritance.ex1",
+        "peekOfCode": "c1 = Child()\nc1.m1()\nc1.m2()\nc1.m3()'''",
+        "detail": "oops-part2.inheritance.ex1",
+        "documentation": {}
+    },
+    {
+        "label": "parent1",
+        "kind": 6,
+        "importPath": "oops-part2.inheritance.ex2",
+        "description": "oops-part2.inheritance.ex2",
+        "peekOfCode": "class parent1:\n    def m1(self):\n        print(\"parent1 class-1 method\")\n    def m2(self):\n        print(\"parent1 class-2 method\")\nclass parent2:\n    def m3(self):\n        print(\"parent2 class-1 method\")\nclass child(parent1, parent2):\n    def m4(self):",
+        "detail": "oops-part2.inheritance.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "parent2",
+        "kind": 6,
+        "importPath": "oops-part2.inheritance.ex2",
+        "description": "oops-part2.inheritance.ex2",
+        "peekOfCode": "class parent2:\n    def m3(self):\n        print(\"parent2 class-1 method\")\nclass child(parent1, parent2):\n    def m4(self):\n        print(\"child class method\")\nc1 =  child()\nc1.m1()\nc1.m2()\nc1.m3()",
+        "detail": "oops-part2.inheritance.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "child",
+        "kind": 6,
+        "importPath": "oops-part2.inheritance.ex2",
+        "description": "oops-part2.inheritance.ex2",
+        "peekOfCode": "class child(parent1, parent2):\n    def m4(self):\n        print(\"child class method\")\nc1 =  child()\nc1.m1()\nc1.m2()\nc1.m3()\nc1.m4()",
+        "detail": "oops-part2.inheritance.ex2",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "oops-part2.inheritance.ex2",
+        "description": "oops-part2.inheritance.ex2",
+        "peekOfCode": "c1 =  child()\nc1.m1()\nc1.m2()\nc1.m3()\nc1.m4()",
+        "detail": "oops-part2.inheritance.ex2",
         "documentation": {}
     }
 ]
