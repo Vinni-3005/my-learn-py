@@ -220,6 +220,24 @@
         "documentation": {}
     },
     {
+        "label": "emailpattern",
+        "kind": 5,
+        "importPath": "Regular Exp.asign",
+        "description": "Regular Exp.asign",
+        "peekOfCode": "emailpattern = ('[a-zA-Z0-9]+@[A-Za-z0-9]+.com')\nfp=open('data.txt','r')\ndata= fp.read()\nfp.close()\nphone_numbers= re.findall(phpattern,data)\nemails = re.findall(emailpattern,data)\nnew_fp=open('newfile.txt','w')\nnew_fp.write(\"Phone numbers:\\n\")\nfor phone in phone_numbers:\n    new_fp.write(phone + '\\n')",
+        "detail": "Regular Exp.asign",
+        "documentation": {}
+    },
+    {
+        "label": "emails",
+        "kind": 5,
+        "importPath": "Regular Exp.asign",
+        "description": "Regular Exp.asign",
+        "peekOfCode": "emails = re.findall(emailpattern,data)\nnew_fp=open('newfile.txt','w')\nnew_fp.write(\"Phone numbers:\\n\")\nfor phone in phone_numbers:\n    new_fp.write(phone + '\\n')\nnew_fp.write(\"emails:\\n\")\nfor email in emails:\n    new_fp.write(email +'\\n')\nnew_fp.close()",
+        "detail": "Regular Exp.asign",
+        "documentation": {}
+    },
+    {
         "label": "mobileno",
         "kind": 5,
         "importPath": "Regular Exp.ex-1",

@@ -4,7 +4,7 @@ so, i have to extract all the phone numbers and emails and write it to the new f
 
 import re
 
-phpattern= ('\+?(91)?[ -]?[6-9]\d{9}\b')
+phpattern= ('[6-9][0-9]{9}')
 emailpattern = ('[a-zA-Z0-9]+@[A-Za-z0-9]+.com')
 
 fp=open('data.txt','r')

@@ -1,5 +1,5 @@
-Both patterns and +91-8876554301 strings to be searched wert@gmail.com can be Unicode strings (str) as well
- as 8-bit strings (bytes). However,+91-9876543231 Unicode strings asdf@gmail.com and 8-bit strings +91-4567890123 cannot be mixed: 
+Both patterns and 8876554301 strings to be searched wert@gmail.com can be Unicode strings (str) as well
+ as 8-bit strings (bytes). However,9876543231 Unicode strings asdf@gmail.com and 8-bit strings +91-4567890123 cannot be mixed: 
  that is, you cannot match a abcd@gmail.com Unicode string with a byte pattern or vice-versa; similarly, 
  when asking for a substitution, the replacement string must be of the same type as both the
   pattern and the search string.
@@ -7,7 +7,7 @@ Both patterns and +91-8876554301 strings to be searched wert@gmail.com can be Un
 Regular expressions use the backslash 3456654398 character ('\') to indicate special  zxcv@gmail.com forms or to allow 
 special characters to 1234 be used without invoking their special meaning. This collides with Python’s 
 usage of the same character for the same purpose in string literals; acvyfd@outlook.com for example, to match a literal 
-backslash, one might have to write '\\\\' as the pattern +91-1234 string, because the regular expression must 
+backslash, one might have to write '\\\\' as the pattern 1234 string, because the regular expression must 
 be \\, and bvcdfg@yaho.com each backslash must be expressed as \\ inside a regular Python string literal. Also, please 
 note that any invalid escape sequences in Python’s usage of the backslash bvgghst@rahul.com in string literals now 
 generate a SyntaxWarning and in the future this will become a SyntaxError. This behaviour will happen 
