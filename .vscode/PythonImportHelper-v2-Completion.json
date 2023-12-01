@@ -9,6 +9,128 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "webapp",
+        "description": "webapp",
+        "isExtraImport": true,
+        "detail": "webapp",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "loads",
         "importPath": "json",
         "description": "json",
@@ -64,6 +186,258 @@
         "description": "Datatypes.immutable",
         "peekOfCode": "def wish():\n    pass\nprint(wish())\n#10.Frozenset\nids={10,20,30}\nids.add(40)\nfs=frozenset(ids)\nprint(ids)     #why 40 is adding at the starting value?\nprint(fs)",
         "detail": "Datatypes.immutable",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.asgi",
+        "description": "django.firstproject.firstproject.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "django.firstproject.firstproject.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-wimfb*%1(p#%5*83@3efj=nq)kpjs$q$ti^%o)u$qfm)um)m+g'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-wimfb*%1(p#%5*83@3efj=nq)kpjs$q$ti^%o)u$qfm)um)m+g'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'webapp'",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'webapp'\n]\nMIDDLEWARE = [",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'firstproject.urls'",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "ROOT_URLCONF = 'firstproject.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'firstproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.settings",
+        "description": "django.firstproject.firstproject.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django.firstproject.firstproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.urls",
+        "description": "django.firstproject.firstproject.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]'''\nfrom django.contrib import admin\nfrom django.urls import path\nfrom webapp import views\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path('index/', views.getindexpage),\n    path('about/', views.getaboutpage),",
+        "detail": "django.firstproject.firstproject.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.urls",
+        "description": "django.firstproject.firstproject.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('index/', views.getindexpage),\n    path('about/', views.getaboutpage),\n    path('service/', views.getservicepage),\n    path('login/', views.getloginpage),\n    path('contact/', views.getcontactpage)\n]",
+        "detail": "django.firstproject.firstproject.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "django.firstproject.firstproject.wsgi",
+        "description": "django.firstproject.firstproject.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "django.firstproject.firstproject.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "WebappConfig",
+        "kind": 6,
+        "importPath": "django.firstproject.webapp.apps",
+        "description": "django.firstproject.webapp.apps",
+        "peekOfCode": "class WebappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'webapp'",
+        "detail": "django.firstproject.webapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "getindexpage",
+        "kind": 2,
+        "importPath": "django.firstproject.webapp.views",
+        "description": "django.firstproject.webapp.views",
+        "peekOfCode": "def getindexpage(request):\n    msg = '<h2>Index Page</h2>'\n    return HttpResponse(msg)\ndef getaboutpage(request):\n    return HttpResponse('About Page')\ndef getservicepage(request):\n    return HttpResponse('Service Page')\ndef getcontactpage(request):\n    return HttpResponse('Contact Page')\ndef getloginpage(request):",
+        "detail": "django.firstproject.webapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getaboutpage",
+        "kind": 2,
+        "importPath": "django.firstproject.webapp.views",
+        "description": "django.firstproject.webapp.views",
+        "peekOfCode": "def getaboutpage(request):\n    return HttpResponse('About Page')\ndef getservicepage(request):\n    return HttpResponse('Service Page')\ndef getcontactpage(request):\n    return HttpResponse('Contact Page')\ndef getloginpage(request):\n    return HttpResponse('Login Page')",
+        "detail": "django.firstproject.webapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getservicepage",
+        "kind": 2,
+        "importPath": "django.firstproject.webapp.views",
+        "description": "django.firstproject.webapp.views",
+        "peekOfCode": "def getservicepage(request):\n    return HttpResponse('Service Page')\ndef getcontactpage(request):\n    return HttpResponse('Contact Page')\ndef getloginpage(request):\n    return HttpResponse('Login Page')",
+        "detail": "django.firstproject.webapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getcontactpage",
+        "kind": 2,
+        "importPath": "django.firstproject.webapp.views",
+        "description": "django.firstproject.webapp.views",
+        "peekOfCode": "def getcontactpage(request):\n    return HttpResponse('Contact Page')\ndef getloginpage(request):\n    return HttpResponse('Login Page')",
+        "detail": "django.firstproject.webapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getloginpage",
+        "kind": 2,
+        "importPath": "django.firstproject.webapp.views",
+        "description": "django.firstproject.webapp.views",
+        "peekOfCode": "def getloginpage(request):\n    return HttpResponse('Login Page')",
+        "detail": "django.firstproject.webapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "django.firstproject.manage",
+        "description": "django.firstproject.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'firstproject.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "django.firstproject.manage",
         "documentation": {}
     },
     {
